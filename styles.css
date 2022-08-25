@@ -5,3 +5,11 @@ body {
 #buttonTest {
   padding: 40px;
 }
+
+#textAfterClick {
+  display: none;
+}
+
+#hiddenButton {
+  display: none;
+}

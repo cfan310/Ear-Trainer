@@ -6,13 +6,21 @@ const button1 = document.getElementById("buttonTest");
 
 var textAfterClick = document.getElementById("textAfterClick");
 
-var hiddenText = textAfterClick.innerHTML;
+var hiddenButton = document.getElementById("hiddenButton");
 
-hiddenText = "SURPRISE";
+//var hiddenText = textAfterClick.innerHTML;
 
 // click function to dispay innerhtml if button is clicked
 
 function displayText() {
-  textAfterClick.innerHTML = "SURPRISE";
+  textAfterClick.style.display = "block";
+  hiddenButton.style.display = "block";
   button1.style.color = "orange";
 }
+
+function hideText() {
+  textAfterClick.style.display = "none";
+  hiddenButton.style.display = "none";
+}
+
+hiddenButton.addEventListener("click", hideText);
