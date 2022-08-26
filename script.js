@@ -24,3 +24,11 @@ function hideText() {
 }
 
 hiddenButton.addEventListener("click", hideText);
+
+// build single octave keyboard with css
+
+// add basic button functionality
+
+// import sound files and sync
+
+// expand...
