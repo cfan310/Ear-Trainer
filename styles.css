@@ -13,3 +13,9 @@ body {
 #hiddenButton {
   display: none;
 }
+
+#piano {
+  /*center of page*/
+  padding: absolute;
+  margin: auto;
+}

@@ -32,3 +32,5 @@ hiddenButton.addEventListener("click", hideText);
 // import sound files and sync
 
 // expand...
+
+// eventually backend it with java and build iOS Windows interface
