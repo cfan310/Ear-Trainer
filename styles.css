@@ -4,6 +4,7 @@
 }
 
 body {
+  margin: 0;
   background-color: aquamarine;
 }
 
@@ -18,4 +19,19 @@ body {
   border: 0.5vmin solid black;
   height: 10vmin;
   width: 50vmin;
+}
+
+ul {
+  height: 20em;
+  width: 40em;
+  margin: 5em auto;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 1em;
+  background: rgb(75, 40, 8);
+}
+
+li {
+  margin: 0;
+  padding: 0;
 }
