@@ -1,21 +1,10 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+}
+
 body {
   background-color: aquamarine;
-}
-
-#buttonTest {
-  padding: 40px;
-}
-
-#textAfterClick {
-  display: none;
-}
-
-#hiddenButton {
-  display: none;
-}
-
-#title {
-  text-align: center;
 }
 
 #piano {
