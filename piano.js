@@ -6,3 +6,13 @@
 // experiment with importing audio files upon click for pitches
 // create physical guitar note location logic
 // eventually choose three notes to play in succession
+
+// slider keyboard in every octave
+
+// add keyboard shortcuts for each note
+
+// one guitar note played, setTimeout async function 1000, then the corresponding
+// keyboard note is played. The reverse also works.
+// connect to music API and get high fidelity sounds for piano and guitar notes
+// add bass and keyboard functionality
+// Ableton API??
